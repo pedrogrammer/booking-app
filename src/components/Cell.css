@@ -1,0 +1,9 @@
+.cell {
+    border: 1px black solid;
+    border-top: 0;
+    border-left: 0;
+}
+
+.selected {
+    background-color: aquamarine;
+}

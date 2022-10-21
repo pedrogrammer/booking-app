@@ -1,0 +1,13 @@
+#rows-table-wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 82vh;
+}
+
+#submit-btn-color-options-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 11vh;
+    padding: 15px;
+}

@@ -1,0 +1,38 @@
+#color-options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    width: max-content;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+        rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+#color-options .red {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+
+#color-options .red.g-1 {
+    background-color: #fec4c4;
+}
+#color-options .red.g-2 {
+    background-color: #ff7575;
+}
+#color-options .red.g-3 {
+    background-color: #ff0000;
+}
+#color-options .red.g-4 {
+    background-color: #b30000;
+}
+
+#color-options .red:active {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}

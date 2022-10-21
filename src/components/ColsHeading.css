@@ -1,0 +1,22 @@
+#cols-heading {
+    display: flex;
+    flex-direction: row;
+    height: 7vh;
+    background-color: #fbab7e;
+    background-image: linear-gradient(90deg, #fbab7e 0%, #f7ce68 43%);
+}
+
+#cols-heading .week-day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12.5%;
+    border: 1px solid black;
+    border-left: 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#cols-heading .week-day:first-child {
+    border-left: 1px solid black;
+}
